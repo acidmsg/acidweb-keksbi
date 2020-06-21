@@ -1,3 +1,5 @@
+- name: Notify Telegram
+  uses: yanzay/notify-telegram@v0.1.0
     - uses: yanzay/notify-telegram@v0.1.0
       if: always()
       with:
