@@ -13,5 +13,3 @@ jobs:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
         args: The ${{ github.event_name }} event triggered first step. 
-        message: |
-      The ${{ github.event_name }} event triggered final step.
