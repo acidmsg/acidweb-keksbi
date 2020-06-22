@@ -6,11 +6,13 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-    - name: send custom message
-  uses: appleboy/telegram-action@master
-  with:
-    to: ${{ secrets.TELEGRAM_TO }}
-    token: ${{ secrets.TELEGRAM_TOKEN }}
-    message: |
+    - uses: actions/checkout@master
+    - name: send custom message with args
+      uses: appleboy/telegram-action@master
+      with:
+        to: ${{ secrets.TELEGRAM_TO }}
+        token: ${{ secrets.TELEGRAM_TOKEN }}
+        args: The ${{ github.event_name }} event triggered first step. 
+        message: |
       The ${{ github.event_name }} event triggered final step.
       echo This event is a pull request that had an assignee removed.
