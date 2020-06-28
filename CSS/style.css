@@ -1,4 +1,4 @@
-.page-header, 
+.page-header,
 .page-footer {
   padding: 10px;
   background-color: #eeeeee;
@@ -33,4 +33,8 @@
 
 .price-list .price-name {
   font-weight: bold;
+}
+
+.feedback-form-group {
+  padding: 10px 0;
 }
