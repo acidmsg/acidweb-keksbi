@@ -11,7 +11,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 8124,
+				"buffer_size": 0,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -92,9 +92,9 @@
 	],
 	"file_history":
 	[
+		"/D/_HTML Academy/lessons/acidweb-keksbi/acidweb-keksbi.sublime-project",
 		"/D/_HTML Academy/lessons/acidweb-keksbi/CSS/style.css",
 		"/D/_HTML Academy/lessons/acidweb-keksbi/index.html",
-		"/D/_HTML Academy/lessons/acidweb-keksbi/acidweb-keksbi.sublime-project",
 		"/C/Windows/System32/drivers/etc/hosts",
 		"/C/Users/ACID_GRIP/Downloads/hosts",
 		"/C/Users/ACID_GRIP/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
@@ -143,15 +143,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8124,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								163,
-								163
+								0,
+								0
 							]
 						],
 						"settings":
@@ -497,7 +497,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 258.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
