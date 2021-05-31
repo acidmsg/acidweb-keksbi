@@ -17,13 +17,11 @@
 			}
 		},
 		{
-			"contents": ".page-header,\n.page-footer {\n    padding: 10px;\n    background-color: #eeeeee;\n}\n\n.page-footer {\n    margin-top: 20px;\n}\n\n.price-list {\n    width: 100%;\n    border-collapse: collapse;\n}\n\n.price-list th {\n    font-weight: normal;\n    text-align: left;\n}\n\n.price-list td {\n    border: 1px solid #333333;\n}\n\n.price-list th,\n.price-list td {\n    padding: 5px 10px;\n}\n\n.price-list .price-number {\n    text-align: center;\n}\n\n.price-list .price-name {\n    font-weight: bold;\n}\n\n.feedback-form-group {\n    padding: 10px 0;\n}\n",
 			"file": "CSS/style.css",
-			"file_size": 517,
-			"file_write_time": 132666080208241070,
 			"settings":
 			{
 				"buffer_size": 517,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -39,6 +37,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
 			[
 				"sync",
 				"Sync Settings: Upload"
@@ -66,10 +68,6 @@
 			[
 				"syn",
 				"Sync Settings: Upload"
-			],
-			[
-				"instal",
-				"Package Control: Install Package"
 			],
 			[
 				"remove",
@@ -110,8 +108,8 @@
 	],
 	"file_history":
 	[
-		"/D/_HTML Academy/lessons/acidweb-keksbi/acidweb-keksbi.sublime-project",
 		"/D/_HTML Academy/lessons/acidweb-keksbi/CSS/style.css",
+		"/D/_HTML Academy/lessons/acidweb-keksbi/acidweb-keksbi.sublime-project",
 		"/D/_HTML Academy/lessons/acidweb-keksbi/index.html",
 		"/C/Windows/System32/drivers/etc/hosts",
 		"/C/Users/ACID_GRIP/Downloads/hosts",
@@ -174,6 +172,7 @@
 						],
 						"settings":
 						{
+							"auto_complete": false,
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.locations":
 							{
@@ -207,16 +206,6 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -227,36 +216,46 @@
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -280,7 +279,7 @@
 								"current_ext": ".html",
 								"current_syntax": "HTML/HTML",
 								"enabled": true,
-								"last_updated": 1622295017.99,
+								"last_updated": 1622297357.68,
 								"scanning": "meta.declaration-list.css -support.type.property-name.css -comment -string,meta.property-value.css -comment -string,meta.value.css -comment -string,meta.tag.inline.any.html string.quoted -constant.character.entity.html,meta.tag.any.html meta.attribute-with-value.style.html"
 							},
 							"git_gutter_is_enabled": true,
@@ -289,10 +288,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 344.0,
+						"translation.y": 229.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -314,8 +313,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								301,
+								301
 							]
 						],
 						"settings":
@@ -325,12 +324,27 @@
 							{
 								"close":
 								{
+									"1":
+									[
+										302,
+										303
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										269,
+										270
+									]
 								},
 								"unmatched":
 								{
@@ -338,16 +352,6 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -358,43 +362,53 @@
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content"
 							],
-							"color_helper.box_height": 18,
+							"color_helper.box_height": 19,
 							"color_helper.color_scheme": "Packages/GitHub Theme/schemes/GitHub Dark.sublime-color-scheme",
 							"color_helper.refresh": false,
 							"color_helper.scan":
@@ -411,9 +425,10 @@
 								"current_ext": ".css",
 								"current_syntax": "CSS3/CSS3",
 								"enabled": true,
-								"last_updated": 1622295017.99,
+								"last_updated": 1622297357.68,
 								"scanning": "meta.declaration-list.css -support.type.property-name.css -comment -string,meta.property-value.css -comment -string,meta.value.css -comment -string,meta.tag.inline.any.html string.quoted -constant.character.entity.html,meta.tag.any.html meta.attribute-with-value.style.html"
 							},
+							"git_gutter_is_enabled": true,
 							"syntax": "Packages/CSS3/CSS3.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
@@ -422,7 +437,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -508,7 +523,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
