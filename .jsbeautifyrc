@@ -1,0 +1,57 @@
+{
+  // all
+  "indent_char": " ",
+  "indent_size": 2,
+  "preserve_newlines": true,
+  "max_preserve_newlines": 5,
+  "end_with_newline": false,
+  "wrap_line_length": 0,
+
+  // html
+  // "wrap_attributes": "force-aligned",
+  "indent_scripts": "normal",
+  "indent_empty_lines": false,
+  "indent_inner_html": false,
+  "indent_head_inner_html": true,
+  "indent_body_inner_html": true,
+  "void_elements": [
+    "area",
+    "base",
+    "br",
+    "col",
+    "embed",
+    "hr",
+    "img",
+    "input",
+    "keygen",
+    "link",
+    "menuitem",
+    "meta",
+    "param",
+    "source",
+    "track",
+    "wbr",
+    "!doctype",
+    "?xml",
+    "?php",
+    "?=",
+    "basefont",
+    "isindex"
+  ],
+
+  //css
+  "newline_between_rules": true,
+  "selector_separator_newline": true,
+  "space_around_combinator": true,
+
+  // js
+  "keep_array_indentation": false,
+  "break_chained_methods": false,
+  "brace_style": "collapse",
+  "space_before_conditional": true,
+  "unescape_strings": false,
+  "jslint_happy": true,
+  "comma_first": false,
+  "e4x": false
+
+}
